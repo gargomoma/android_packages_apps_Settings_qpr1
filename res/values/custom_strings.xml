@@ -14,4 +14,7 @@
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Show quick settings on secure lockscreen</string>    
 </resources>
