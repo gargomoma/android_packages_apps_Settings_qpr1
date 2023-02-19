@@ -51,6 +51,12 @@
             android:summary="@string/lockscreen_privacy_wallet_summary"
             settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" />
 
+        <com.statix.android.settings.SecureSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/show_qs_on_secure_keyguard_title"
+            android:summary="@string/show_qs_on_secure_keyguard_summary"
+            android:defaultValue="false" />            
+
         <SwitchPreference
             android:key="lock_screen_show_qr_scanner"
             android:title="@string/lockscreen_privacy_qr_code_scanner_setting_toggle"

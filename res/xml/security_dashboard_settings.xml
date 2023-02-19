@@ -59,13 +59,7 @@
             android:key="biometric_settings"
             android:title="@string/security_settings_biometric_preference_title"
             android:summary="@string/summary_placeholder"
-            settings:keywords="@string/keywords_biometric_settings" />
-
-        <com.statix.support.preferences.SecureSettingSwitchPreference
-            android:key="secure_lockscreen_qs_disabled"
-            android:title="@string/show_qs_on_secure_keyguard_title"
-            android:summary="@string/show_qs_on_secure_keyguard_summary"
-            android:defaultValue="false" />            
+            settings:keywords="@string/keywords_biometric_settings" />       
     </PreferenceCategory>
 
     <Preference
